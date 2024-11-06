@@ -1,0 +1,214 @@
+%-------------------------
+% Resume in Latex
+% Author : 
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Riley Mathews} \\ \vspace{1pt}
+    \small 646-300-5733 $|$ \href{mailto:rileymathews13@gmail.com}{\underline{rileymathews13@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/riley-mathews-1793251a3/}{\underline{linkedin.com/in/Riley}} $|$
+    \href{https://github.com/MatherMan}{\underline{github.com/MatherMan}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {San Diego State University}{GPA: 3.5/4.0}
+      {Bachelor of Science in Computer Science, Bachelor of Science in Finance}{May 2025}
+   % \resumeSubSubheading{Bachelor of Science in Finance}{Completed May 2023}
+   %   \resumeSubheading{Clubs}{ }{Association for Computing Machinery, Eleetcoders Club}{ }
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Internship Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer Intern}{Summer 2019}
+      {Tourneau}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Automated inventory management system using Google Scripts to streamline identification of aged or damaged inventory, resulting in 18\% decrease in stagnant inventory.}
+        \resumeItem{Achieved an 18\% reduction in damaged inventory downtime, with an automated workflow that notified store managers of action items and facilitated service requests via customized Google Forms.}
+        \resumeItem{Used HTML and CSS to implement front-end enhancements on a website generating over \$50 million in online sales to drive seamless user experiences and design consistency.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Financial Advising Intern}{Summer 2022}
+      {Bank of America}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Achieved a 13\% higher than average return rate by identifying requirements.}
+        \resumeItem{Developed data-driven strategies for personalized financial planning, utilizing advanced Excel techniques to analyze client data and provide tailored recommendations.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Course Registration} $|$ \emph{NodeJS, Express, React, PostgreSQL, Drizzle ORM}}{September 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed \textbf{RESTful APIs} using \textbf{Node.js} and Express to facilitate seamless data exchange between the backend and frontend, supporting key endpoints for managing majors, students, faculty, users, courses, and scheduled courses.}
+            \resumeItem{Leveraged Drizzle ORM with \textbf{PostgreSQL} to define and manage complex data schemas, including relationships between departments, majors, students, faculty, and course schedules.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Personal Block-chain} $|$ \emph{Java, Object Oriented Design, SHA-256 Hashing}}{May 2024}
+          \resumeItemListStart
+            \resumeItem{Utilized \textbf{object-oriented programming}, file handling, and error management techniques to create a blockchain prototype.}
+            \resumeItem{Implemented \textbf{cryptographic hash functions} for block verification and ensured the integrity of data in a chain structure.}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Personal Cookbook Website} $|$ \emph{HTML, CSS, JavaScript, Git}}{Dec. 2023 -- Jan. 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a website using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript} to structure and style recipe content.}
+            \resumeItem{Utilized \textbf{Git} version control, ensuring smooth continuous code integration.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Other Work Experience}
+
+    \resumeSubHeadingListStart
+        \resumeSubheading{Member Services Lead - \textnormal{\textit{S.A.L.T. President}}}{June 2023 - Present}
+        {Associated Students of SDSU}{San Diego, CA}
+        \resumeItemListStart
+            \resumeItem{Elected President of internal leadership group by peers to oversee staff appreciation, community outreach, and drive community-building efforts within the organization.}
+            \resumeItem{Increased culture capital and commitment to organizational values, shown by an 11\% increase in employee engagement, by interviewing, onboarding, and training over 30 new staff}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, Assembly} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, NVim, Vim, Vi, VS Code, Visual Studio, LaTeX} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Drizzle ORM, pg, SHA-256}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
